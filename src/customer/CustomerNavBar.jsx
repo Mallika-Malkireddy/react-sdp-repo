@@ -4,7 +4,7 @@ import './customer.css';
 import CustomerHome from './CustomerHome';
 import ViewEvents from './ViewEvents';
 import BookEvent from './BookEvent';
-import CustomerLogOut from './CustomerLogOut';
+import CustomerLogout from './CustomerLogOut';
 
 export default function CustomerNavBar() {
   const navigate = useNavigate();
@@ -34,7 +34,7 @@ export default function CustomerNavBar() {
           <Route path="/home" element={<CustomerHome />} />
           <Route path="/view-events" element={<ViewEvents />} />
           <Route path="/book-event" element={<BookEvent />} />
-          <Route path="/logout" element={<CustomerLogOut />} />
+          <Route path="/logout" element={<CustomerLogout />} />
           <Route path="/" element={<CustomerHome />} />
         </Routes>
       </div>
