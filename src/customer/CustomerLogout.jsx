@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CustomerLogout() {
+export default function CustomerLogOut() {
   return (
     <div>
       <h2>Customer Logout</h2>
