@@ -4,7 +4,7 @@ import './customer.css';
 import CustomerHome from './CustomerHome';
 import ViewEvents from './ViewEvents';
 import BookEvent from './BookEvent';
-import CustomerLogout from './CustomerLogOut';
+import CustomerLogout from './CustomerLogout';
 
 export default function CustomerNavBar() {
   const navigate = useNavigate();
